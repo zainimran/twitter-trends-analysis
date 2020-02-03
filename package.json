@@ -16,7 +16,14 @@
     "twit": "^2.2.9"
   },
   "scripts": {
-    "start": "cd src && node server",
-    "build": "npm install && npm start"
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd src && node server",
+    "client": "npm install && npm start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }, 
+  "devDependencies": {
+    "concurrently": "^5.1.0"
   }
 }
