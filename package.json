@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "node server.js",
+    "server": "npm install && node server.js",
     "client": "cd src && npm start"
   },
   "devDependencies": {
