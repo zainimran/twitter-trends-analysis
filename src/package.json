@@ -1,0 +1,20 @@
+{
+    "name": "src",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "react-scripts": "1.1.2"
+    },
+    "dependencies": {
+        "d3": "^5.0.0",
+        "react": "^16.3.0",
+        "react-dom": "^16.3.0",
+        "topojson": "^3.0.2",
+        "socket.io-client": "^2.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject"
+    }
+}

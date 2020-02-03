@@ -5,7 +5,6 @@ const fs = require('fs');
 const path = require('path');
 const http = require('http');
 const socketio = require('socket.io');
-const {timeParse} = require('d3');
 
 var sentiments = ['positive', 'neutral', 'negative']
 var commercials = ['commercial', 'non-commercial']
